@@ -1,0 +1,41 @@
+{
+  "name": "omega-cli",
+  "version": "0.0.1",
+  "description": "Omega-UI自动化构建工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "omega-cli": "./bin/omega-ui.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qulongjun/Omega-cli.git"
+  },
+  "keywords": [
+    "Omega-UI",
+    "Cli",
+    "React",
+    "Webpack"
+  ],
+  "author": "瞿龙俊",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qulongjun/Omega-cli/issues"
+  },
+  "homepage": "https://github.com/qulongjun/Omega-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "fs": "0.0.1-security",
+    "git-clone": "^0.1.0",
+    "ora": "^2.1.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.2",
+    "tracer": "^0.9.0"
+  }
+}

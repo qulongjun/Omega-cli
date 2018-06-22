@@ -1,5 +1,5 @@
 {
-  "name": "o-cli",
+  "name": "omegaui-cli",
   "version": "0.0.1",
   "description": "Omega-UI快速构建工具",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "o-cli": "./bin/omega-ui.js"
+    "omegaui-cli": "./bin/omega-ui.js"
   },
   "repository": {
     "type": "git",

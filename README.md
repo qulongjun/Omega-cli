@@ -11,7 +11,7 @@ $ npm install omegaui-cli
 
 ### 使用
 ```bash
-$ omega-cli init my-project
+$ omegaui-cli init my-project
 ```
 >可以使用简写 i 替代 init 。
 
@@ -31,5 +31,3 @@ cd my-project && npm run build
 
 ### 截图
 ![](./_image/2018-06-23-11-08-19.jpg)
-
-

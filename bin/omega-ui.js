@@ -22,7 +22,7 @@ program
     .version(package.version)
     .usage('[options]')
     .option('init --dir', '在指定位置初始化项目')
-    .description('Omega-UI脚手架')
+    .description('OmegaUI 快速构建工具')
 
 program
     .command('* init <projectPath>')
@@ -36,9 +36,9 @@ program
             choices: ['稳定版本', '开发版本']
         }]).then(function(answers) {
             if (answers.type === '稳定版本') {
-                build(projectPath, 'master');
+                build(projectPath, 'template/stable');
             } else {
-                build(projectPath, 'beta');
+                build(projectPath, 'template/beta');
             }
         })
 
@@ -107,7 +107,7 @@ function downloadTemplate(projectPath, version) {
     });
     //log.info('正在下载模板...')
     spinner.start(`正在下载模板`);
-    download('qulongjun/Omega-template#' + version, projectPath, {
+    download('qulongjun/Omega-UI#' + version, projectPath, {
         clone: true
     }, (err) => {
         if (!err) {

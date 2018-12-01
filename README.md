@@ -1,3 +1,8 @@
+
+该项目已迁移至  [Shine Design](https://github.com/shine-design/shine-design)，本项目停止更新。
+
+<hr />
+
 # OmegaUI Command Line Interface
 >OmegaUI 快速构建工具
 
